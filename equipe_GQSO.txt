@@ -1,3 +1,8 @@
-Nathália Vitória dos Santos Oliveira
-Leticia Valentim da Silva
-Alicia Nicole Ferreira Terto
+CREATE TABLE produto
+(
+cod_produto int(5),
+descricao varchar(100),
+unidade varchar(8),
+valor_unitario float(8),
+PRIMARY KEY (cod_produto)
+);
